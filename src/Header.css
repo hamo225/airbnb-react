@@ -1,0 +1,50 @@
+/* stuck to the top - needs top:0 and highest z index */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 1rem 0;
+}
+
+.header__icon {
+  /*object fit contain keeps the aspect ratio of the image  */
+  object-fit: contain;
+  height: 50px;
+  margin-left: 80px;
+}
+
+.header__center,
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__center {
+  flex: 1;
+  justify-content: center;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border-radius: 999px;
+  border: 1px solid lightgray;
+}
+
+/* outline width removes the outline */
+.header__center input {
+  border: none;
+  /* width: 250px; */
+  padding: 10px;
+  outline-width: 0;
+}
+
+.header__right {
+  justify-content: space-between;
+  width: 15vw;
+  margin-right: 80px;
+}
