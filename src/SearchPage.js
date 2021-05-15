@@ -24,6 +24,96 @@ function SearchPage() {
         price="$30 / night"
         total="$680 total"
       ></SearchResult>
+      <SearchResult
+        img="https://shorttermrentalz.com/wp-content/uploads/2021/05/airbnb-hero-.jpg"
+        location="Private Room in Mitte Berlin"
+        title="Stay at this cool loft"
+        description="1 guest | 1 bedroom | 1 bed | open kitchen | WIFI | Free parking | Washing machine"
+        star={5}
+        price="$30 / night"
+        total="$680 total"
+      ></SearchResult>
+      <SearchResult
+        img="https://shorttermrentalz.com/wp-content/uploads/2021/05/airbnb-hero-.jpg"
+        location="Private Room in Mitte Berlin"
+        title="Stay at this cool loft"
+        description="1 guest | 1 bedroom | 1 bed | open kitchen | WIFI | Free parking | Washing machine"
+        star={5}
+        price="$30 / night"
+        total="$680 total"
+      ></SearchResult>
+      <SearchResult
+        img="https://shorttermrentalz.com/wp-content/uploads/2021/05/airbnb-hero-.jpg"
+        location="Private Room in Mitte Berlin"
+        title="Stay at this cool loft"
+        description="1 guest | 1 bedroom | 1 bed | open kitchen | WIFI | Free parking | Washing machine"
+        star={5}
+        price="$30 / night"
+        total="$680 total"
+      ></SearchResult>
+      <SearchResult
+        img="https://shorttermrentalz.com/wp-content/uploads/2021/05/airbnb-hero-.jpg"
+        location="Private Room in Mitte Berlin"
+        title="Stay at this cool loft"
+        description="1 guest | 1 bedroom | 1 bed | open kitchen | WIFI | Free parking | Washing machine"
+        star={5}
+        price="$30 / night"
+        total="$680 total"
+      ></SearchResult>
+      <SearchResult
+        img="https://shorttermrentalz.com/wp-content/uploads/2021/05/airbnb-hero-.jpg"
+        location="Private Room in Mitte Berlin"
+        title="Stay at this cool loft"
+        description="1 guest | 1 bedroom | 1 bed | open kitchen | WIFI | Free parking | Washing machine"
+        star={5}
+        price="$30 / night"
+        total="$680 total"
+      ></SearchResult>
+      <SearchResult
+        img="https://shorttermrentalz.com/wp-content/uploads/2021/05/airbnb-hero-.jpg"
+        location="Private Room in Mitte Berlin"
+        title="Stay at this cool loft"
+        description="1 guest | 1 bedroom | 1 bed | open kitchen | WIFI | Free parking | Washing machine"
+        star={5}
+        price="$30 / night"
+        total="$680 total"
+      ></SearchResult>
+      <SearchResult
+        img="https://shorttermrentalz.com/wp-content/uploads/2021/05/airbnb-hero-.jpg"
+        location="Private Room in Mitte Berlin"
+        title="Stay at this cool loft"
+        description="1 guest | 1 bedroom | 1 bed | open kitchen | WIFI | Free parking | Washing machine"
+        star={5}
+        price="$30 / night"
+        total="$680 total"
+      ></SearchResult>
+      <SearchResult
+        img="https://shorttermrentalz.com/wp-content/uploads/2021/05/airbnb-hero-.jpg"
+        location="Private Room in Mitte Berlin"
+        title="Stay at this cool loft"
+        description="1 guest | 1 bedroom | 1 bed | open kitchen | WIFI | Free parking | Washing machine"
+        star={5}
+        price="$30 / night"
+        total="$680 total"
+      ></SearchResult>
+      <SearchResult
+        img="https://shorttermrentalz.com/wp-content/uploads/2021/05/airbnb-hero-.jpg"
+        location="Private Room in Mitte Berlin"
+        title="Stay at this cool loft"
+        description="1 guest | 1 bedroom | 1 bed | open kitchen | WIFI | Free parking | Washing machine"
+        star={5}
+        price="$30 / night"
+        total="$680 total"
+      ></SearchResult>
+      <SearchResult
+        img="https://shorttermrentalz.com/wp-content/uploads/2021/05/airbnb-hero-.jpg"
+        location="Private Room in Mitte Berlin"
+        title="Stay at this cool loft"
+        description="1 guest | 1 bedroom | 1 bed | open kitchen | WIFI | Free parking | Washing machine"
+        star={5}
+        price="$30 / night"
+        total="$680 total"
+      ></SearchResult>
     </div>
   );
 }
