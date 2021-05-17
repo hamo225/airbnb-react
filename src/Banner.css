@@ -40,3 +40,19 @@
   text-transform: inherit !important;
   color: #ff7779 !important;
 }
+
+@media only screen and (max-width: 850px) {
+  .banner__info {
+    padding: 5vh 40px 30px;
+    width: 200px;
+  }
+
+  .banner__info > h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .banner__info > button {
+    margin-top: 2rem;
+  }
+}

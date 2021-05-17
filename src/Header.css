@@ -48,3 +48,31 @@
   width: 15vw;
   margin-right: 80px;
 }
+
+@media only screen and (max-width: 850px) {
+  .header__right {
+    display: none;
+  }
+
+  .header__center {
+    margin-right: 20px;
+  }
+
+  .header__icon {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header__icon {
+    height: 30px;
+  }
+
+  .header__center {
+    height: 15px;
+  }
+
+  .header__center input {
+    padding: 0;
+  }
+}

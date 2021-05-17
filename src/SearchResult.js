@@ -1,5 +1,5 @@
 import { FavoriteBorder } from "@material-ui/icons";
-import React from "react";
+import React, { useState } from "react";
 import "./SearchResult.css";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import StarIcon from "@material-ui/icons/Star";
@@ -13,10 +13,20 @@ function SearchResult({
   price,
   total,
 }) {
+  const [colorHeart, setColorHeart] = useState("");
+
+  function redHeart(e) {
+    setColorHeart("red");
+  }
+
   return (
     <div className="searchResult">
       <img src={img} alt="" />
-      <FavoriteBorderIcon className="searchResult__heart" />
+      <FavoriteBorderIcon
+        className="searchResult__heart"
+        style={{ fill: colorHeart }}
+        onClick={redHeart}
+      />
       <div className="searchResult__info">
         <div className="searchResult__infoTop">
           <p>{location}</p>
